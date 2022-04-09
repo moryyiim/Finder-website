@@ -1,0 +1,52 @@
+.form__background {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  max-width: 640px;
+  background: rgba(49, 49, 49, 0.7);
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 340px) {
+  .form__background {
+    width: 90%;
+  }
+}
+
+p {
+  text-align: center;
+  font-size: 1.5rem;
+  width: 80%;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.about__info {
+  text-align: center;
+  font-size: 0.9rem;
+  margin: 0 4rem 1rem;
+  letter-spacing: 0.8px;
+  color: white;
+}
+
+.logo__bold {
+  color: white;
+}
+
+@media screen and (max-width: 500px) {
+  p {
+    font-size: 15px;
+  }
+  .about__info {
+    font-size: 10px;
+    width: 80%;
+  }
+}
